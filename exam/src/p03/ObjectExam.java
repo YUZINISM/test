@@ -22,7 +22,7 @@ public class ObjectExam {
 		return num1;
 	}
 		
-	void inputNums() {	
+	public void inputNums() {	
 		Scanner s = new Scanner(System.in);
 		System.out.println("type your first number : ");
 		num1 = s.nextInt();
@@ -41,7 +41,7 @@ public class ObjectExam {
 	
 	}
 	
-	static ObjectExam p = new ObjectExam();
+    static ObjectExam p = new ObjectExam();
 	
 	public static void main(String args[]) {
 	
