@@ -2,7 +2,7 @@ package p11;
 
 import java.util.ArrayList;
 
-public class ListExam {
+public class ListExam11 {
 
 	int get() {
 		System.out.print(1);
@@ -13,12 +13,13 @@ public class ListExam {
 		ArrayList<String> al= new ArrayList<String>();
 		al.add("st");
 		al.add("op");
-		ListExam li = new ListExam();
+		ListExam11 li = new ListExam11();
 		
 		System.out.println(al.indexOf("op"));
 		
 
 	
 	}
+	
 
 }
