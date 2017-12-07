@@ -23,8 +23,8 @@ public class MapExam {
 			} else {
 				
 				for (int j = 0; j < al.size(); j++) {
-					hm.put("age", num + "");
-					hm.put("name", "홍길동");
+//					hm.put("age", num + "");
+//					hm.put("name", "홍길동");
 
 					if (Integer.parseInt(al.get(j).get("age")) < num) {
 
