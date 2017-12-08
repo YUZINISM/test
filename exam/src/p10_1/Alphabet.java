@@ -7,7 +7,9 @@ public class Alphabet {
 		System.out.println("Alphabet");
 		
 	}
-	
+	public void son() {
+		System.out.print("this is son's unique function");
+	}
 	public static void main(String args[]) {
 
 	}
