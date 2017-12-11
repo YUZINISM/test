@@ -15,7 +15,8 @@ public class Android extends Googler{
 	public static void main(String args[]) {
 
 		Googler an = new Android();
-		an.print(3);
+		
+		an.father();
 		System.out.println(an.getClass());
 	}
 }
