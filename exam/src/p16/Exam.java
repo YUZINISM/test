@@ -51,8 +51,8 @@ public class Exam {
 
 	public static void main(String args[]) {
 		Exam e = new Exam();
-		// Integer[] nums = { 1, 2, 3, 4 };
-		// ArrayList<Integer> markList = Lists.newArrayList();
+		 Integer[] nums = { 1, 2, 3, 4 };
+		ArrayList<Integer> markList = Lists.newArrayList();
 
 		e.getMarks();
 		e.getSumAve(e.arr);
